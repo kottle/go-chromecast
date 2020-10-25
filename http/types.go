@@ -1,6 +1,6 @@
 package http
 
-import "github.com/vishen/go-chromecast/cast"
+import "github.com/kottle/go-chromecast/cast"
 
 type listDevicesResponse struct {
 	Devices []device `json:"devices"`

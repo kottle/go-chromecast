@@ -10,8 +10,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/vishen/go-chromecast/application"
-	"github.com/vishen/go-chromecast/dns"
+	"github.com/kottle/go-chromecast/application"
+	"github.com/kottle/go-chromecast/dns"
 )
 
 type Handler struct {

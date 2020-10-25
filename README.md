@@ -33,13 +33,13 @@ device uuid, `-u <uuid>`, the results will be cached and it will connect to the 
 ## Installing
 
 ### Install release binaries
-https://github.com/vishen/go-chromecast/releases
+https://github.com/kottle/go-chromecast/releases
 * If using Linux: Download the latest release, unzip using `tar -xzf go-chromecast.tar.gz`, and install using `sudo install ./go-chromecast /usr/bin/`
 
 ### Install the usual Go way:
 
 ```
-$ go get -u github.com/vishen/go-chromecast
+$ go get -u github.com/kottle/go-chromecast
 ```
 
 ## Commands

@@ -27,7 +27,7 @@ import (
 
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
-	"github.com/vishen/go-chromecast/ui"
+	"github.com/kottle/go-chromecast/ui"
 )
 
 type mediaFile struct {

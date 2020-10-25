@@ -22,7 +22,7 @@ import (
 
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
-	castdns "github.com/vishen/go-chromecast/dns"
+	castdns "github.com/kottle/go-chromecast/dns"
 )
 
 // lsCmd represents the ls command
