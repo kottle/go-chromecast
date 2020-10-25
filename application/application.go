@@ -206,7 +206,7 @@ func (a *Application) recvMessages() {
 		// This already gets checked in the cast.Connection.handleMessage function.
 		messageType, _ := jsonparser.GetString(messageBytes, "type")
 		switch messageType {
-		case "LOAD_FAILED":
+		case "LOAD_FAILED", "CLOSE":
 			a.MediaFinished()
 		case "MEDIA_STATUS":
 			resp := cast.MediaStatusResponse{}
