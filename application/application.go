@@ -236,6 +236,8 @@ func (a *Application) recvMessages() {
 				for _, app := range resp.Status.Applications {
 					if app.AppId != a.application.AppId {
 						a.MediaFinished()
+					} else if app.IsIdleScreen {
+						a.MediaFinished()
 					}
 					a.application = &app
 				}
